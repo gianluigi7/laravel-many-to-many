@@ -15,7 +15,7 @@ class ProjectTechnologySeeder extends Seeder
      */
     public function run(): void
     {
-        for ($i = 0;$i < 10; $i++) {
+        for ($i = 0; $i < 10; $i++) {
             
             $new_project_technology = new ProjectTechnology();
             
